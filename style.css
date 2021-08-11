@@ -1,0 +1,36 @@
+
+body{
+    margin: 0;
+}
+
+
+
+.side-header{
+    background-color: aquamarine;
+    color: chocolate;
+    height: 100vh;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-header-content{
+    margin: 1rem;
+}
+
+.profile-pic{
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    box-shadow: black 4px 4px 8px;
+}
+#linkedin-link{
+color: chocolate;
+text-decoration: none;
+}
+
+#linkedin-link:hover{
+    color:dodgerblue;
+}
