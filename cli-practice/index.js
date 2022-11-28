@@ -99,17 +99,58 @@ for(i=0;i<5;i++)
 // homework: star pattern
 // a program to take input number from user and print stars like this. 
 // The below pattern will be printed when the user enters 5.
-
+/*
 let input=require('readline-sync');
 let num=input.question("Enter a number: ")
 for(i=0;i<num;i++){
-    // for(j=0;j<i;j++){
+    for(j=0;j<i;j++){
         console.log("*")
     }
-//     console.log("\n")
-// }
+    console.log("\n")
+}
+*/
+//chalange accpted
+/*
+for(let i=1; i<=5; i++){
+    console.log("*".repeat(i));
+ }
+ */
 
-// for(var i=1; i<=num; i++){
-//     console.log("*".repeat(i));
-//  }
- 
+ //ex10: list grocery items to buy
+ /*
+ challenge
+ prepare a list of grocery items to buy.
+ add 5 items
+ print the first item on the list.
+ print the third item on the list.
+ print the last item on the list.
+*/
+/*
+let array=["itemone", "itemtwo", "itemthree", "itemfour"]
+console.log(array[0],array[2], array[3])
+
+// ex11: print every item on the list
+// Take the list you made in the last exercise.
+//  Now, use a for loop to print every item.
+
+for (let i = 0; i < array.length; i++) {
+    console.log(array[i])
+}
+*/
+
+// ex12: club info about a superhero together
+// Create two objects and put information about two superheros: superman and batman. 
+// Get familiarity with the syntax. 
+// Read and understand what's written in understanding section.
+
+let superman={
+    origin: "Alien",
+    mother: "alive",
+    weakness: "Kryptonite"
+}
+
+let batman = {
+    origin : "earth",
+    mother: "dead",
+    weakness: "ego"
+}
