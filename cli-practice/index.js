@@ -142,7 +142,7 @@ for (let i = 0; i < array.length; i++) {
 // Create two objects and put information about two superheros: superman and batman. 
 // Get familiarity with the syntax. 
 // Read and understand what's written in understanding section.
-
+/*
 let superman={
     origin: "Alien",
     mother: "alive",
@@ -154,3 +154,4 @@ let batman = {
     mother: "dead",
     weakness: "ego"
 }
+*/
