@@ -6,3 +6,5 @@ if (person===null) {
 else
 console.log("hey! " + person)
 console.log("decision decision, all of them wrong! Uni uni wts the con!")
+
+console(1+1, "1+1")
